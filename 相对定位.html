@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>相对定位</title>
+	<style type="text/css">
+		div{
+			width: 300px;
+			height: 300px;
+		}
+		.red{
+			background-color: red;
+		}
+		.green{
+			background-color: green;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			/*position: relative;
+			top: -150px;
+			left: 50px;*/
+		}
+		.blue{
+			background-color: blue;
+			width: 500px;
+		}
+		.gold{
+			width: 300px;
+			height: 300px;
+			border: 10px solid gold;
+			position: relative;/*父盒子声明一个定位方式，让子盒子以父盒子为参照物进行绝对定位*/
+		}
+	</style>
+</head>
+<body>
+	<div class="red"></div>
+	<div class="gold">
+		<div class="green"></div>
+	</div>
+	<div class="blue"></div>
+</body>
+</html>

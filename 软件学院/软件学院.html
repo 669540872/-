@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>安阳师范学院-软件学院</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: url(images/bg.jpg) repeat-x;
+		}
+		.head{
+			width: 1002px;
+			margin: 0 auto;
+			background: url(images/logo_r.jpg) no-repeat top right;
+			overflow: hidden;
+			text-align: right;
+			font:12PX/24PX "微软雅黑";
+		}
+		.head .logo{
+			width: 341px;
+			height: 147px;
+			background: url(images/logo.jpg) no-repeat top left;
+			float: left;
+		}
+		.head a{
+			text-decoration: none;
+			color: #ddd;
+			padding: 0 4px;
+		}
+		.nav{
+			width: 1002px;
+			margin: 0 auto;
+			background-color: #6b176f;
+			padding: 0 1px 0 2px;
+			overflow: hidden;
+		}
+		.nav ul{
+			list-style: none;
+
+		}
+		.nav ul li{
+			width: 111px;
+			float: left;
+			font: 15px/36px "微软雅黑";
+		}
+		.nav ul li a:link,.nav ul li a:visited{
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			text-align: center;
+		}
+		.nav ul li a:hover{
+			color: gold;
+			background-color: #6b176f;
+		}
+		.banner{
+			width: 1002px;
+			margin: 0 auto;
+			margin-top: 8px;
+		}
+		.news{
+			width: 1002px;
+			margin: 0 auto;
+		}
+		.news .xyxw{
+			width: 520px;
+			height: 255px;
+			float: left;
+		}
+		h1{
+			font: 16px/23px "微软雅黑";
+		}
+		.fl{
+			float: left;
+		}
+		.news .xyxw .xyCol{
+			background: url(images/xy_xx.jpg) no-repeat bottom left;
+			overflow: hidden;
+			text-align: right;
+			/*line-height: 23px;*/
+		}
+		.news .xyxw .xyCol h1{
+			padding-left: 23px;
+		}
+		.news .xyxw .xyContent img{
+			width: 240px;
+			height: 183px;
+		}
+		.news .xyxw .xyContent .left{
+			float:left;
+			width: 240px;
+			padding: 24px 10px 25px 23px;
+		}
+		.news .xyxw .xyContent .reght{
+			width: 247px;
+		}
+		.news .title{
+			font: 14px/29px "微软雅黑";
+			float: left;
+		}
+		.news a:hover{
+			color: red;
+		}
+		.news .date{
+			font: 13px/29px "微软雅黑";
+			color: #8c3397;
+			float: right;
+		}
+		.news ul{
+			list-style: none;
+		}
+		.news ul li{
+			padding: 0 4px;
+			border-bottom: 1px dashed #ddd;
+			overflow: hidden;
+		}
+		.news ul li a{
+			color: #444;
+			text-decoration: none;
+		}
+		.news .more img{
+			padding-top: 4px;
+			padding-right: 10px;
+		}
+		.news .tz{
+			width: 220px;
+			float: left;
+		}
+		.news .tz .tzCol{
+			background: url(images/xxxx.jpg) no-repeat bottom left;
+			overflow: hidden;
+			text-align: right;
+		}
+		.ml22{
+			margin-left: 22px;
+		}
+		.ml21{
+			margin-left: 21px;
+		}
+		.ml20{
+			margin-left: 20px;
+		}
+		.cl{
+			clear: both;
+			height: 13px;
+		}
+		.quick{
+			width: 956px;
+			height: 67px;
+			margin: 0 auto;
+			padding: 0 26px 0 20px;
+			border-bottom: 2px solid #6b176f;
+		}
+		.quick .kstd{
+			width: 715px;
+			float: left;
+		}
+		.quick .kstd .ks{
+			background: url(images/right_xx.jpg) no-repeat bottom left;
+		}
+		.quick .kstd .links{
+			font: 2px/40px "微软雅黑";
+			padding: 0 80px;
+		}
+	 	.quick .kstd .links a{
+	 		text-decoration: none;
+	 		color: #762476;
+	 		margin-right: 38px;
+	 	}
+	 	.quick .kstd .links a.first{
+	 		margin-left: 0;
+	 	}
+	 	.quick .ss{
+	 		width: 220px;
+	 		float: left;
+	 	}
+	 	.quick .ss .ssCol{
+	 		background: url(images/xxxx.jpg) no-repeat bottom left;
+	 	}
+	 	.quick .ss .ipt{
+	 		padding-top: 6px;
+	 		padding-left: 20px;
+	 	}
+	 	.quick .ss .ipt input{
+	 		width: 154px;
+	 		vertical-align: middle;
+	 		line-height: 27px;
+	 	}
+	 	.quick .ss .ipt img{
+	 		vertical-align: middle;
+	 	}
+	 	.foot{
+	 		margin: 0 auto;
+	 		width: 1002px;
+	 		font: 13px/59px "微软雅黑";
+	 		text-align: center;
+	 		background-color: #F2F2F2;
+	 	}
+	 	.foot span .first{
+			margin-left: 0;
+	 	}
+	 	.foot span a{
+	 		text-decoration: none;
+	 		color: #2116ee;
+	 	}
+	 	.foot span a:active{
+	 		color: red;
+	 	}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<div class="logo"></div>
+		<a href="#">设为首页</a>
+		<a href="#">加入收藏</a>
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="#">学院首页</a></li>
+			<li><a href="#">学院概况</a></li>
+			<li><a href="#">党建思政</a></li>
+			<li><a href="#">教学教育</a></li>
+			<li><a href="#">课题研究</a></li>
+			<li><a href="#">实习实训</a></li>
+			<li><a href="#">团学工作</a></li>
+			<li><a href="#">招生就业</a></li>
+			<li><a href="#">工会活动</a></li>
+		</ul>
+	</div>
+	<div class="banner">
+		<img src="images/banner_3.jpg" alt="" />
+	</div>
+	<div class="news">
+		<div class="xyxw">
+			<div class="xyCol">
+				<h1 class="fl">学院新闻</h1>
+				<a href="#" class="more"><img src="images/more.jpg" alt="" /></a>
+			</div>
+			<div class="xyContent">
+				<div class="left"><img src="images/news.jpg" alt="" /></div>
+				<div class="right">
+					<ul>
+						<li><a href="#" class="title">软件学院成功召开诚信考</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开诚信考</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开诚信考</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开诚信考</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开诚信考</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开诚信考</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开诚信考</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开诚信考</a><span class="date">03-06</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="tz ml22">
+			<div class="tzCol">
+				<h1 class="fl">通知公告</h1>
+				<a href="#" class="more"><img src="images/more.jpg" alt="" /></a>
+			</div>
+				<div class="tzTitles">
+					<ul>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+					</ul>
+				</div>
+		</div>
+		<div class="tz ml20">
+			<div class="tzCol">
+				<h1 class="fl">团学公告</h1>
+				<a href="#" class="more"><img src="images/more.jpg" alt="" /></a>
+			</div>
+				<div class="tzTitles">
+					<ul>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+						<li><a href="#" class="title">软件学院成功召开...</a><span class="date">03-06</span></li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<div class="cl"></div>
+	<div class="quick">
+		<div class="kstd">
+			<div class="ks">
+				<h1>快速通道</h1>
+			</div>
+			<div class="links">
+				<a href="#" class="first">公共计算机教学部</a>
+				<a href="#">全国计算机等级考试</a>
+				<a href="#">省级实验教学示范</a>
+				<a href="#">本科教学工程</a>
+			</div>
+		</div>
+		<div class="ss ml21">
+			<div class="ssCol">
+				<h1>站内搜索</h1>
+			</div>
+			<div class="ipt">
+				<input type="text" /><img src="images/ss.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+	<div class="foot">
+		<span class="ml20 first">版权所有：安阳师范学院软件学院</span>
+		<span class="ml20">地址：安阳市文峰区文明大道265号 教学楼</span>
+		<span class="ml20">邮编：455000</span>
+		<span class="ml20">电子邮箱：<a href="#">rjxy@aynu.edu.cn</a></span>
+	</div>
+</body>
+</html>
